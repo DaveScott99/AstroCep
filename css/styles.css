@@ -8,12 +8,12 @@
 }
 
 html, body {
-    background-color: #000;
+    background-color: rgb(16, 16, 16);
 }
  
 .nav-container {
     height: 80px;
-    background-color: #ff8400;
+    background-color: #cc0000;
     width: 100%;
     padding: 0 20px;
     display: flex;
@@ -37,6 +37,7 @@ html, body {
 .contact-link {
     color: #fff;
     cursor: pointer;
+    font-weight: 700;
 }
 
 .form-container {
@@ -91,7 +92,7 @@ html, body {
 .btn {
     width: 250px;
     height: 50px;
-    background-color: #ff8400;
+    background-color: #cc0000;
     color: #fff;
     font-weight: 700;
     font-size: 14px;
@@ -127,7 +128,7 @@ html, body {
 }
 
 .card-list-item h3 {
-    color: #ff8400;
+    color: #FF4500;
     font-size: 18px;
 }
 
