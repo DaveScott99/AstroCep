@@ -1,5 +1,6 @@
 import Address from '../models/address.js';
 import * as addressService from '../services/address-service.js';
+import * as listController from './list-controller.js';
 
 function State() {
 
@@ -19,7 +20,7 @@ function State() {
 
 const state = new State();
 
-export function init() {
+export function init()  {
 
     state.inputCep = document.forms.newAddress.cep;
     state.inputStreet = document.forms.newAddress.street;
@@ -72,7 +73,7 @@ async function handleInputCepChange(event) {
 
 async function handleBtnSaveClick(event) {
     event.preventDefault();
-    console.log(state.address);
+    listController.addCard(state.address);
 }
 
 function handleInputNumberChange(event) {
