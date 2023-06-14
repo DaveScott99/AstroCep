@@ -4,6 +4,8 @@
 
 Web App que faz cadastramentos de endereços válidos consumindo a API pública ViaCep.
 
+- Link do projeto: https://astro-cep-javascript.vercel.app/
+
 ## Tecnologias utilizadas
 
 ### Back end
